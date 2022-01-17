@@ -1,0 +1,98 @@
+p{
+    color: rgb(27, 23, 23);
+}
+.players{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+}
+.player{
+    display: grid;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    padding: 10px;
+    margin: 10px;
+}
+.player h2{
+    font-size: 0.9cm;
+}
+.player p{
+    margin-bottom: 30px;
+}
+.player img{
+    width: 100%;
+    height: 100%;
+}
+.hmain{
+    background-color: cyan;
+}
+.htext{
+    width: 700px;
+}
+.htext h2{
+    font-size: 100px;
+    font-weight: 10px;
+    font-stretch: ultra-expanded;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hpic{
+    width: 500px;
+}
+.hpic img{
+    width: 100%;
+}
+.htextpic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.ffooter{
+    justify-content: center;
+    text-align: center;
+}
+.icon i{
+    padding: 15px;
+}
+
+.Highlight{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.highlightT{
+    width: 550px;
+}
+.highlightT h1{
+    font-size: 1.5cm;
+}
+.highlightP{
+    width: 650px;
+}
+.highlightP img{
+    width: 100%;
+}
+.buttonh{
+    background-color: rgb(240, 54, 184);
+    color: gainsboro;
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+
+}
+.buttonh:hover{
+    background-color: black;
+    color: white;
+
+}
